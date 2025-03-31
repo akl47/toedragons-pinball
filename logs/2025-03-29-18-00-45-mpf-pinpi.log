@@ -1,0 +1,43 @@
+2025-03-29 18:00:45,873 : INFO : root : Loading config.
+2025-03-29 18:00:45,875 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-03-29 18:00:45,875 : INFO : ConfigProcessor : Loading config from cache: /tmp/9121053a167b3a0609222a4623987891.mpf_cache
+2025-03-29 18:00:45,908 : INFO : ConfigProcessor : Loading config from cache: /tmp/66ef204c87633dc02ca3efd475778ed9.mpf_cache
+2025-03-29 18:00:45,909 : INFO : ConfigProcessor : Loading config from cache: /tmp/74f2825223a7abe8c76a0d15a1753cf2.mpf_cache
+2025-03-29 18:00:45,909 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-03-29 18:00:45,909 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-03-29-18-00-45-mpf-pinpi.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/home/pinpi/toedragons-pinball/logs/2025-03-29-18-00-45-mpf-pinpi.log'}
+2025-03-29 18:00:45,909 : INFO : Machine : MPF path: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf
+2025-03-29 18:00:45,909 : INFO : Machine : Machine path: /home/pinpi/toedragons-pinball
+2025-03-29 18:00:45,909 : INFO : Machine : Platform: linux
+2025-03-29 18:00:45,909 : INFO : Machine : Python executable location: /home/pinpi/pinpi/bin/python
+2025-03-29 18:00:45,909 : INFO : Machine : Python version: 3.11.2 (64-bit)
+2025-03-29 18:00:45,910 : INFO : Machine : Initializing MPF...
+2025-03-29 18:00:45,952 : INFO : FAST [NET] : Trying to connect to /dev/ttyAMA2 at 921600bps
+2025-03-29 18:00:45,952 : INFO : FAST [NET] : Connected to /dev/ttyAMA2 at 921600bps
+2025-03-29 18:00:45,954 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2025-03-29 18:00:45,955 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-03-29 18:00:45,955 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-03-29 18:00:45,964 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-03-29 18:00:45,964 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2025-03-29 18:00:45,964 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-03-29 18:00:45,964 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.2', 'prev_value': None, 'change': True}
+2025-03-29 18:00:45,965 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-6.6.51+rpt-rpi-2712-aarch64-with-glibc2.36', 'prev_value': None, 'change': True}
+2025-03-29 18:00:45,965 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2025-03-29 18:00:45,965 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '6.6.51+rpt-rpi-2712', 'prev_value': None, 'change': True}
+2025-03-29 18:00:45,966 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08)', 'prev_value': None, 'change': True}
+2025-03-29 18:00:45,966 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'aarch64', 'prev_value': None, 'change': True}
+2025-03-29 18:00:45,966 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/home/pinpi/toedragons-pinball/logs/2025-03-29-18-00-45-mpf-pinpi.log', 'prev_value': None, 'change': True}
+2025-03-29 18:00:45,966 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-03-29 18:00:46,040 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-03-29 18:00:46,041 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2025-03-29 18:00:46,043 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2025-03-29 18:00:53,034 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-03-29 18:00:53,365 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-03-29 18:00:53,732 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-03-29 18:00:53,875 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-03-29 18:00:54,044 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-03-29 18:00:54,158 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-03-29 18:00:54,848 : INFO : Machine : Starting the main run loop with active modes: []
+2025-03-29 18:00:54,848 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-03-29 18:00:54,848 : INFO : Machine : Shutting down...
+2025-03-29 18:00:54,849 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-03-29 18:00:55,952 : INFO : root : MPF run loop ended.

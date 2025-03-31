@@ -1,0 +1,95 @@
+2025-03-26 18:17:36,189 : INFO : root : Loading config.
+2025-03-26 18:17:36,192 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-03-26 18:17:36,192 : INFO : ConfigProcessor : Loading config from cache: /tmp/9121053a167b3a0609222a4623987891.mpf_cache
+2025-03-26 18:17:36,225 : INFO : ConfigProcessor : Loading config from cache: /tmp/66ef204c87633dc02ca3efd475778ed9.mpf_cache
+2025-03-26 18:17:36,226 : INFO : ConfigProcessor : Loading config from cache: /tmp/74f2825223a7abe8c76a0d15a1753cf2.mpf_cache
+2025-03-26 18:17:36,226 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-03-26 18:17:36,226 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-03-26-18-17-36-mpf-pinpi.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/home/pinpi/toedragons-pinball/logs/2025-03-26-18-17-36-mpf-pinpi.log'}
+2025-03-26 18:17:36,226 : INFO : Machine : MPF path: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf
+2025-03-26 18:17:36,226 : INFO : Machine : Machine path: /home/pinpi/toedragons-pinball
+2025-03-26 18:17:36,226 : INFO : Machine : Platform: linux
+2025-03-26 18:17:36,226 : INFO : Machine : Python executable location: /home/pinpi/pinpi/bin/python
+2025-03-26 18:17:36,226 : INFO : Machine : Python version: 3.11.2 (64-bit)
+2025-03-26 18:17:36,227 : INFO : Machine : Initializing MPF...
+2025-03-26 18:17:36,262 : INFO : FAST [NET] : Trying to connect to /dev/ttyAMA2 at 921600bps
+2025-03-26 18:17:36,263 : INFO : FAST [NET] : Connected to /dev/ttyAMA2 at 921600bps
+2025-03-26 18:17:36,264 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2025-03-26 18:17:36,266 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-03-26 18:17:36,267 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,275 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,275 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,275 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,275 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.2', 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,276 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-6.6.51+rpt-rpi-2712-aarch64-with-glibc2.36', 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,277 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,277 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '6.6.51+rpt-rpi-2712', 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,277 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08)', 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,277 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'aarch64', 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,277 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/home/pinpi/toedragons-pinball/logs/2025-03-26-18-17-36-mpf-pinpi.log', 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,277 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-03-26 18:17:36,355 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-03-26 18:17:36,359 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-03-26 18:17:36,360 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-03-26 18:17:36,361 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_long'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,361 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_short'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,361 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_short'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,361 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_long'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,361 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,361 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,361 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-03-26 18:17:36,361 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-03-26 18:17:36,362 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-03-26 18:17:36,362 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-03-26 18:17:36,363 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-03-26 18:17:36,363 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-03-26 18:17:36,363 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-03-26 18:17:36,363 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-03-26 18:17:36,363 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-03-26 18:17:36,364 : INFO : Mode.attract : Started. Priority: 10
+2025-03-26 18:17:36,364 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-03-26 18:17:36,364 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-03-26 18:17:36,364 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-03-26 18:17:36,364 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-03-26 18:17:38,947 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' active >>>>>>>
+2025-03-26 18:17:38,948 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' active >>>>>>>
+2025-03-26 18:17:39,011 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' inactive >>>>>>>
+2025-03-26 18:17:39,013 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' inactive >>>>>>>
+2025-03-26 18:17:43,085 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' active >>>>>>>
+2025-03-26 18:17:43,123 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' active >>>>>>>
+2025-03-26 18:17:43,373 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' inactive >>>>>>>
+2025-03-26 18:17:43,383 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' inactive >>>>>>>
+2025-03-26 18:17:45,276 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' active >>>>>>>
+2025-03-26 18:17:45,333 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' active >>>>>>>
+2025-03-26 18:17:46,758 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' inactive >>>>>>>
+2025-03-26 18:17:46,760 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' inactive >>>>>>>
+2025-03-26 18:17:48,111 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' active >>>>>>>
+2025-03-26 18:17:48,112 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' active >>>>>>>
+2025-03-26 18:17:48,188 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' inactive >>>>>>>
+2025-03-26 18:17:48,189 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' inactive >>>>>>>
+2025-03-26 18:17:48,812 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' active >>>>>>>
+2025-03-26 18:17:48,812 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' active >>>>>>>
+2025-03-26 18:17:48,905 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' inactive >>>>>>>
+2025-03-26 18:17:48,906 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' inactive >>>>>>>
+2025-03-26 18:17:49,572 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' active >>>>>>>
+2025-03-26 18:17:49,575 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' active >>>>>>>
+2025-03-26 18:17:49,603 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' inactive >>>>>>>
+2025-03-26 18:17:49,604 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' inactive >>>>>>>
+2025-03-26 18:17:50,171 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' active >>>>>>>
+2025-03-26 18:17:50,171 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' active >>>>>>>
+2025-03-26 18:17:50,454 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' inactive >>>>>>>
+2025-03-26 18:17:50,455 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' inactive >>>>>>>
+2025-03-26 18:17:50,872 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' active >>>>>>>
+2025-03-26 18:17:50,876 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' active >>>>>>>
+2025-03-26 18:17:50,920 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' inactive >>>>>>>
+2025-03-26 18:17:50,922 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' inactive >>>>>>>
+2025-03-26 18:17:51,132 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' active >>>>>>>
+2025-03-26 18:17:51,134 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' active >>>>>>>
+2025-03-26 18:17:51,179 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' inactive >>>>>>>
+2025-03-26 18:17:51,181 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' inactive >>>>>>>
+2025-03-26 18:17:51,333 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' active >>>>>>>
+2025-03-26 18:17:51,334 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' active >>>>>>>
+2025-03-26 18:17:51,441 : INFO : SwitchController : <<<<<<< 's_left_flipper_short' inactive >>>>>>>
+2025-03-26 18:17:51,443 : INFO : SwitchController : <<<<<<< 's_left_flipper_long' inactive >>>>>>>
+2025-03-26 18:18:18,541 : INFO : Machine : Shutting down...
+2025-03-26 18:18:18,541 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-03-26 18:18:18,643 : INFO : root : MPF run loop ended.

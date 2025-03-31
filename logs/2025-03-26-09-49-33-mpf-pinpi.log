@@ -1,0 +1,85 @@
+2025-03-26 09:49:33,176 : INFO : root : Loading config.
+2025-03-26 09:49:33,178 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-03-26 09:49:33,179 : WARNING : ConfigProcessor : Config file in cache changed: /home/pinpi/toedragons-pinball/config/config.yaml
+2025-03-26 09:49:33,179 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2025-03-26 09:49:33,226 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2025-03-26 09:49:33,226 : INFO : ConfigProcessor : Loading config from file /home/pinpi/toedragons-pinball/config/config.yaml.
+2025-03-26 09:49:33,229 : INFO : ConfigProcessor : Loading config: /home/pinpi/toedragons-pinball/config/config.yaml
+2025-03-26 09:49:33,230 : INFO : ConfigProcessor : Config file cache created: /tmp/9121053a167b3a0609222a4623987891.mpf_cache
+2025-03-26 09:49:33,262 : INFO : ConfigProcessor : Loading config from cache: /tmp/66ef204c87633dc02ca3efd475778ed9.mpf_cache
+2025-03-26 09:49:33,262 : INFO : ConfigProcessor : Loading config from cache: /tmp/74f2825223a7abe8c76a0d15a1753cf2.mpf_cache
+2025-03-26 09:49:33,263 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-03-26 09:49:33,263 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-03-26-09-49-33-mpf-pinpi.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/home/pinpi/toedragons-pinball/logs/2025-03-26-09-49-33-mpf-pinpi.log'}
+2025-03-26 09:49:33,263 : INFO : Machine : MPF path: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf
+2025-03-26 09:49:33,263 : INFO : Machine : Machine path: /home/pinpi/toedragons-pinball
+2025-03-26 09:49:33,263 : INFO : Machine : Platform: linux
+2025-03-26 09:49:33,263 : INFO : Machine : Python executable location: /home/pinpi/pinpi/bin/python
+2025-03-26 09:49:33,263 : INFO : Machine : Python version: 3.11.2 (64-bit)
+2025-03-26 09:49:33,264 : INFO : Machine : Initializing MPF...
+2025-03-26 09:49:33,299 : INFO : FAST [NET] : Trying to connect to /dev/ttyAMA2 at 921600bps
+2025-03-26 09:49:33,300 : INFO : FAST [NET] : Connected to /dev/ttyAMA2 at 921600bps
+2025-03-26 09:49:33,301 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2025-03-26 09:49:33,302 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-03-26 09:49:33,311 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-03-26 09:49:33,311 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2025-03-26 09:49:33,311 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-03-26 09:49:33,311 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.2', 'prev_value': None, 'change': True}
+2025-03-26 09:49:33,312 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-6.6.51+rpt-rpi-2712-aarch64-with-glibc2.36', 'prev_value': None, 'change': True}
+2025-03-26 09:49:33,312 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2025-03-26 09:49:33,312 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '6.6.51+rpt-rpi-2712', 'prev_value': None, 'change': True}
+2025-03-26 09:49:33,312 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08)', 'prev_value': None, 'change': True}
+2025-03-26 09:49:33,312 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'aarch64', 'prev_value': None, 'change': True}
+2025-03-26 09:49:33,312 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/home/pinpi/toedragons-pinball/logs/2025-03-26-09-49-33-mpf-pinpi.log', 'prev_value': None, 'change': True}
+2025-03-26 09:49:33,312 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-03-26 09:49:33,318 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/events.py:124>
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/config_validator.py", line 214, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/config_validator.py", line 236, in validate_config_item
+    raise self.validation_error(
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry playfields:playfield:default_source_device = "None" is not valid. Required setting "default_source_device:" is missing from section "playfields:playfield:" in your config. Error Code: CFE-ConfigValidator-9 (https://missionpinball.org/logs)
+2025-03-26 09:49:33,320 : INFO : Machine : Starting the main run loop with active modes: []
+2025-03-26 09:49:33,320 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2025-03-26 09:49:33,320 : INFO : Machine : Shutting down...
+2025-03-26 09:49:33,320 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-03-26 09:49:34,422 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/machine.py", line 808, in _run_loop
+    raise self._exception['exception']
+  File "/usr/lib/python3.11/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/config_validator.py", line 214, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/config_validator.py", line 236, in validate_config_item
+    raise self.validation_error(
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry playfields:playfield:default_source_device = "None" is not valid. Required setting "default_source_device:" is missing from section "playfields:playfield:" in your config. Error Code: CFE-ConfigValidator-9 (https://missionpinball.org/logs)
+2025-03-26 09:49:34,424 : INFO : root : MPF run loop ended.

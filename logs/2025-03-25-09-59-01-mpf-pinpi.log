@@ -1,0 +1,6 @@
+2025-03-25 09:59:01,157 : INFO : root : Loading config.
+2025-03-25 09:59:01,390 : INFO : ConfigProcessor : Config spec file cache created: /tmp/config_spec.mpf_cache
+2025-03-25 09:59:01,391 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-03-25 09:59:01,391 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2025-03-25 09:59:01,435 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2025-03-25 09:59:01,435 : INFO : ConfigProcessor : Loading config from file /home/pinpi/toedragons-pinball/config/config.yaml.

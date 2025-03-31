@@ -1,0 +1,88 @@
+#config_version=6
+hardware:
+    platform: fast
+    driverboards: fast
+
+mpf:
+    report_crashes: never
+    
+fast:
+  net:
+    controller: neuron
+    port: /dev/ttyAMA2
+    io_loop:
+      l3:
+        model: FP-I/O-3208
+        order: 1
+
+playfields:
+  playfield:
+    tags: default
+    default_source_device: None  # use None in steps before 8
+
+# switches:
+#   s_left_flipper_short:
+#     number: b1-0
+#     tags: left_flipper_short
+#   s_left_flipper_long:
+#     number: b1-1
+#     tags: left_flipper_long
+#   s_right_flipper_short:
+#     number: b1-4
+#     tags: right_flipper_short
+#   s_right_flipper_long:
+#     number: b1-5
+#     tags: right_flipper_long
+
+# coils:
+#   c_flipper_left_main:
+#     number: b1-0  # again, these numbers will probably be different for you
+#   c_flipper_left_hold:
+#     number: b1-1  # check your platform-specific documentation for the actual numbers
+#     allow_enable: true
+#   c_flipper_right_main:
+#     number: 02
+#   c_flipper_right_hold:
+#     number: 03
+#     allow_enable: true
+
+# flippers:
+#     left_flipper:
+#         main_coil: c_left_flipper_main
+#         hold_coil: c_left_flipper_hold
+#         activation_switch: s_left_flipper
+#         eos_switch: s_left_flipper_eos
+#         use_eos: true
+#     right_flipper:
+#         main_coil: c_right_flipper_main
+#         hold_coil: c_right_flipper_hold
+#         activation_switch: s_right_flipper
+#         eos_switch: s_right_flipper_eos
+#         use_eos: true
+switches:
+    s_left_flipper:
+        number: l3-0
+
+
+coils:
+    c_left_flipper_main:
+        number: l3-01
+        default_pulse_ms: 10
+    c_left_flipper_hold:
+        number: l3-00
+        allow_enable: true
+
+flippers:
+    left_flipper:
+        main_coil: c_left_flipper_main
+        hold_coil: c_left_flipper_hold
+        activation_switch: s_left_flipper
+        enable_events: machine_reset_phase_3
+        # eos_switch: s_left_flipper_eos
+        # use_eos: true
+    
+keyboard:
+    z:
+        switch: s_left_flipper
+    m:
+        switch: s_right_flipper_long
