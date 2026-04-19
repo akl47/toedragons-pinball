@@ -1,0 +1,591 @@
+2025-12-09 14:52:36,491 : INFO : root : Loading config.
+2025-12-09 14:52:36,729 : INFO : ConfigProcessor : Config spec file cache created: /tmp/config_spec.mpf_cache
+2025-12-09 14:52:36,730 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-12-09 14:52:36,730 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2025-12-09 14:52:36,777 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2025-12-09 14:52:36,777 : INFO : ConfigProcessor : Loading config from file /home/pinpi/toedragons-pinball/config/config.yaml.
+2025-12-09 14:52:36,790 : INFO : ConfigProcessor : Loading config: /home/pinpi/toedragons-pinball/config/config.yaml
+2025-12-09 14:52:36,791 : INFO : ConfigProcessor : Config file cache created: /tmp/9121053a167b3a0609222a4623987891.mpf_cache
+2025-12-09 14:52:37,078 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/attract/config/attract.yaml.
+2025-12-09 14:52:37,080 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/attract/config/attract.yaml
+2025-12-09 14:52:37,080 : INFO : ConfigProcessor : Config file cache created: /tmp/66ef204c87633dc02ca3efd475778ed9.mpf_cache
+2025-12-09 14:52:37,080 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/game/config/game.yaml.
+2025-12-09 14:52:37,082 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/game/config/game.yaml
+2025-12-09 14:52:37,082 : INFO : ConfigProcessor : Config file cache created: /tmp/74f2825223a7abe8c76a0d15a1753cf2.mpf_cache
+2025-12-09 14:52:37,082 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-12-09 14:52:37,082 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-12-09-14-52-36-mpf-pinpi.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/home/pinpi/toedragons-pinball/logs/2025-12-09-14-52-36-mpf-pinpi.log'}
+2025-12-09 14:52:37,083 : INFO : Machine : MPF path: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf
+2025-12-09 14:52:37,083 : INFO : Machine : Machine path: /home/pinpi/toedragons-pinball
+2025-12-09 14:52:37,083 : INFO : Machine : Platform: linux
+2025-12-09 14:52:37,083 : INFO : Machine : Python executable location: /home/pinpi/pinpi/bin/python
+2025-12-09 14:52:37,083 : INFO : Machine : Python version: 3.11.2 (64-bit)
+2025-12-09 14:52:37,083 : INFO : Machine : Initializing MPF...
+2025-12-09 14:52:37,504 : INFO : FAST [NET] : Trying to connect to /dev/ttyAMA2 at 921600bps
+2025-12-09 14:52:37,505 : INFO : FAST [NET] : Connected to /dev/ttyAMA2 at 921600bps
+2025-12-09 14:52:37,506 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2025-12-09 14:52:37,508 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-0024, Firmware: 01.10, Switches: 24, Drivers: 8
+2025-12-09 14:52:37,509 : INFO : FAST [NET] : Registered I/O Board 1: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-12-09 14:52:37,510 : INFO : FAST [NET] : Registered I/O Board 2: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-12-09 14:52:37,511 : INFO : FAST [NET] : Registered I/O Board 3: Model: FP-I/O-0804, Firmware: 01.10, Switches: 8, Drivers: 4
+2025-12-09 14:52:37,511 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,547 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,547 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,547 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,547 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.2', 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,548 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-6.6.51+rpt-rpi-2712-aarch64-with-glibc2.36', 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,548 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,548 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '6.6.51+rpt-rpi-2712', 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,548 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08)', 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,548 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'aarch64', 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,548 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/home/pinpi/toedragons-pinball/logs/2025-12-09-14-52-36-mpf-pinpi.log', 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,548 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-12-09 14:52:37,684 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:52:37,684 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:52:37,685 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-12-09 14:52:37,685 : INFO : SwitchController : Found active switch: (40, [FAST Platform Interface]) <switch.s_left_flipper_eos>
+2025-12-09 14:52:37,685 : INFO : SwitchController : Found active switch: (44, [FAST Platform Interface]) <switch.s_right_flipper_eos>
+2025-12-09 14:52:37,700 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-12-09 14:52:37,702 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-12-09 14:52:37,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,703 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,703 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,703 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,703 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-12-09 14:52:37,704 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-12-09 14:52:37,704 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-12-09 14:52:37,704 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-12-09 14:52:37,704 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-12-09 14:52:37,704 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-12-09 14:52:37,705 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-12-09 14:52:37,705 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-12-09 14:52:37,706 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-12-09 14:52:37,706 : INFO : Mode.attract : Started. Priority: 10
+2025-12-09 14:52:37,706 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-12-09 14:52:37,706 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-12-09 14:52:37,706 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-12-09 14:52:37,706 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-12-09 14:52:40,360 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:52:40,384 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:40,388 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:40,462 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:52:40,506 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:52:40,933 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:52:40,956 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:41,004 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:52:41,047 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:52:43,040 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:52:43,099 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:52:43,147 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:52:43,408 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:52:43,422 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:52:43,431 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:43,459 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:52:43,476 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:43,483 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:52:43,586 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:52:43,596 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:52:43,611 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:43,642 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:52:43,694 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:52:43,718 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:43,768 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:52:43,813 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:52:44,039 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:52:44,062 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:44,072 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:52:44,118 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:52:44,145 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:44,310 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:52:44,332 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:44,352 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:52:44,361 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:52:44,409 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:52:44,579 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:52:44,598 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:52:44,601 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:44,648 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:52:44,663 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:44,760 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:52:44,784 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:44,803 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:52:44,851 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:52:44,880 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:52:44,899 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:52:44,960 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:52:45,014 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:52:45,038 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:45,041 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:45,056 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:52:45,059 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:52:45,105 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:52:45,466 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:52:45,482 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:45,502 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:52:45,816 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:52:45,848 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:52:46,030 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:52:46,037 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:52:46,195 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:52:46,211 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:52:46,264 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:52:46,388 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:52:46,411 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:46,437 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:52:46,631 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:52:46,660 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:52:46,924 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:52:46,949 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:46,973 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:52:47,021 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:52:47,122 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:52:47,145 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:47,180 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:52:47,227 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:52:47,280 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:52:47,304 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:47,337 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:52:47,382 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:52:57,143 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:52:57,166 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:57,211 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:52:57,256 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:52:57,529 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:52:57,537 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:52:57,713 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:52:57,723 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:52:57,740 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:57,769 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:52:57,895 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:52:57,919 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:57,927 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:52:57,976 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:52:58,123 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:52:58,149 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:58,168 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:52:58,210 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:52:58,518 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:52:58,542 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:52:58,583 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:52:58,628 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:53:01,140 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:53:01,169 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:53:01,252 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:53:01,300 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:53:03,232 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:53:03,256 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:53:03,786 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:53:03,854 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:53:05,220 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:53:05,254 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:53:05,319 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:53:05,367 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:53:07,890 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:53:07,995 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:53:11,492 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:53:11,624 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:53:14,480 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:53:14,609 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:53:16,495 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:53:16,539 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:53:16,607 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:53:16,649 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:53:19,558 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:53:19,582 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:53:19,690 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:53:19,738 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:53:21,900 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:53:21,936 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:53:22,049 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:53:22,093 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:53:25,501 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:53:25,607 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:53:27,855 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:53:27,896 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:53:28,019 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:53:28,059 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:53:30,029 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:53:30,118 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:53:33,154 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:53:33,177 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:53:33,568 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:53:33,616 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:53:34,777 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:53:34,814 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:53:34,854 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:53:34,893 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:53:36,497 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:53:36,521 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:53:36,603 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:53:36,646 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:53:37,993 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:53:38,017 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:53:38,095 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:53:38,137 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:54:05,459 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:54:05,530 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:54:09,601 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:54:09,656 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:54:09,700 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:54:09,723 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:09,727 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:54:11,665 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:54:11,688 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:11,698 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:11,715 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:54:11,749 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:54:11,793 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:54:15,000 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:54:15,028 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:15,138 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:54:15,183 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:54:15,189 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:15,201 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:54:16,979 : INFO : SwitchController : <<<<<<< 's_left_slingshot' active >>>>>>>
+2025-12-09 14:54:16,979 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_left_slingshot'}
+2025-12-09 14:54:16,979 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:54:16,989 : INFO : SwitchController : <<<<<<< 's_left_slingshot' inactive >>>>>>>
+2025-12-09 14:54:17,006 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:17,013 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:54:18,672 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:54:18,702 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:18,775 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:54:21,861 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:54:21,966 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:54:24,890 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:54:24,926 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:25,037 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:54:25,077 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:54:26,276 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:54:26,375 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:54:26,558 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:54:26,582 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:26,679 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:54:26,723 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:54:27,274 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:54:27,294 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:54:27,298 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:27,307 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:54:27,409 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:54:27,453 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:54:28,299 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:54:28,322 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:28,426 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:54:28,469 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:54:29,096 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:54:29,121 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:29,220 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:54:29,266 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:54:29,800 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:54:29,825 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:29,936 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:54:29,980 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:54:32,304 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:54:32,340 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:32,452 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:54:32,492 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:54:35,500 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:54:35,605 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:54:35,610 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:54:35,630 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:54:39,278 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:54:39,396 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:54:41,474 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:54:41,508 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:41,602 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:54:41,643 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:54:43,519 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:54:43,543 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:43,666 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:54:43,711 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:54:44,558 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:54:44,582 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:44,656 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:54:44,660 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:44,684 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:54:44,728 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:54:44,771 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:54:46,333 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:54:46,363 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:46,366 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:46,487 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:54:46,528 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:54:47,732 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:54:47,749 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:54:47,756 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:54:47,872 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:54:47,874 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:54:47,919 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:54:48,545 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:54:48,665 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:54:52,820 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:54:52,889 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:54:53,878 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:54:53,951 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:57:56,958 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-12-09 14:57:56,959 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-12-09 14:57:56,959 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:57:56,959 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_auto_plunger'}
+2025-12-09 14:57:56,959 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:57:57,074 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-12-09 14:57:58,432 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-12-09 14:57:58,432 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-12-09 14:57:58,432 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:57:58,432 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_auto_plunger'}
+2025-12-09 14:57:58,432 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:57:58,519 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-12-09 14:58:02,161 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-12-09 14:58:02,161 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-12-09 14:58:02,161 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:02,161 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_auto_plunger'}
+2025-12-09 14:58:02,161 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:02,446 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-12-09 14:58:03,926 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-12-09 14:58:03,926 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-12-09 14:58:03,926 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:03,926 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_auto_plunger'}
+2025-12-09 14:58:03,926 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:04,256 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-12-09 14:58:07,310 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-12-09 14:58:07,310 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-12-09 14:58:07,310 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:07,310 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_auto_plunger'}
+2025-12-09 14:58:07,311 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:07,632 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-12-09 14:58:10,824 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-12-09 14:58:10,824 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-12-09 14:58:10,824 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:10,824 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_auto_plunger'}
+2025-12-09 14:58:10,824 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:11,004 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-12-09 14:58:12,691 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-12-09 14:58:12,691 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-12-09 14:58:12,691 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:12,691 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_auto_plunger'}
+2025-12-09 14:58:12,691 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:12,887 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-12-09 14:58:14,191 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-12-09 14:58:14,191 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-12-09 14:58:14,191 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:14,191 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_auto_plunger'}
+2025-12-09 14:58:14,191 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:14,346 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-12-09 14:58:17,337 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:58:17,361 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:58:17,484 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:58:17,527 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:58:17,602 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:58:17,720 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:58:19,597 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:58:19,633 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:58:19,752 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:58:19,793 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:58:22,211 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:58:22,234 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:58:22,355 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:58:22,398 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:58:24,755 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:58:24,798 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:58:24,896 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:58:24,940 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:58:27,240 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:58:27,342 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:58:30,315 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:58:30,338 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:58:30,489 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:58:30,530 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:58:32,891 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:58:32,938 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:58:33,057 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:58:33,096 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:58:35,110 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:58:35,206 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:58:40,881 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-12-09 14:58:40,882 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-12-09 14:58:40,882 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:40,882 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_auto_plunger'}
+2025-12-09 14:58:40,882 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:41,018 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-12-09 14:58:42,404 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-12-09 14:58:42,404 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-12-09 14:58:42,404 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:42,404 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_auto_plunger'}
+2025-12-09 14:58:42,404 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:58:42,577 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-12-09 14:58:45,135 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:58:45,248 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:58:46,806 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:58:46,923 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:58:48,491 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:58:48,514 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:58:48,630 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:58:48,675 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:58:49,515 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:58:49,626 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:58:50,628 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:58:50,712 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:58:54,335 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:58:54,358 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:58:54,440 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:58:54,482 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:58:55,432 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:58:55,459 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:58:55,577 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:58:55,621 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:58:57,833 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:58:57,956 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:59:00,747 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:59:00,895 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:59:00,912 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:59:00,943 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:59:01,117 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:59:01,157 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:59:05,004 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:59:05,149 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:59:08,029 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:59:08,053 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:59:08,178 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:59:08,223 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:59:11,817 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-12-09 14:59:11,817 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-12-09 14:59:11,818 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:59:11,818 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_auto_plunger'}
+2025-12-09 14:59:11,818 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:59:11,947 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-12-09 14:59:13,567 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-12-09 14:59:13,567 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-12-09 14:59:13,567 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:59:13,567 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_auto_plunger'}
+2025-12-09 14:59:13,567 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:59:13,721 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-12-09 14:59:14,886 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-12-09 14:59:14,886 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-12-09 14:59:14,886 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:59:14,886 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_auto_plunger'}
+2025-12-09 14:59:14,886 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:59:15,006 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-12-09 14:59:16,368 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-12-09 14:59:16,368 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-12-09 14:59:16,368 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:59:16,368 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_auto_plunger'}
+2025-12-09 14:59:16,368 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 14:59:16,514 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-12-09 14:59:18,339 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:59:18,414 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:59:19,371 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:59:19,395 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:59:19,507 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:59:19,550 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:59:20,958 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:59:20,994 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:59:21,007 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 14:59:21,077 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:59:21,120 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:59:53,219 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:59:53,228 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:59:54,349 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 14:59:54,377 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 14:59:54,379 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 14:59:54,477 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 14:59:54,519 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 14:59:56,654 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:59:56,759 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 14:59:59,903 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 14:59:59,945 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:00:02,339 : INFO : SwitchController : <<<<<<< 's_left_slingshot' active >>>>>>>
+2025-12-09 15:00:02,339 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_left_slingshot'}
+2025-12-09 15:00:02,339 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-12-09 15:00:02,354 : INFO : SwitchController : <<<<<<< 's_left_slingshot' inactive >>>>>>>
+2025-12-09 15:00:04,685 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 15:00:04,715 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 15:00:04,719 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 15:00:04,730 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 15:00:04,808 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 15:00:04,850 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 15:00:04,888 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 15:00:04,894 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 15:00:07,243 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:00:07,376 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:00:08,336 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:00:08,442 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:00:37,579 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:00:37,635 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:00:40,270 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:00:40,409 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:00:45,212 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:00:45,286 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:00:46,534 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:00:46,642 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:00:48,952 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 15:00:48,975 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 15:00:49,062 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 15:00:49,106 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 15:00:50,499 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:00:50,605 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:00:52,444 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:00:52,543 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:00:52,589 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 15:00:52,596 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 15:00:52,625 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 15:00:53,392 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 15:00:53,415 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 15:00:53,428 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 15:00:53,793 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 15:00:53,837 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 15:00:54,618 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 15:00:54,648 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 15:00:54,710 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 15:00:54,752 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 15:00:56,512 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:00:56,624 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:00:57,904 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:00:58,018 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:00:59,823 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 15:00:59,847 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 15:00:59,909 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 15:00:59,953 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 15:01:00,155 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:01:00,277 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:01:04,599 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:01:04,697 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:01:07,621 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:01:07,728 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:01:07,732 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:01:07,742 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:01:09,562 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:01:09,660 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:01:12,723 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:01:12,820 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:01:15,831 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:01:15,924 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:01:16,138 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-12-09 15:01:16,901 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:01:16,915 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-12-09 15:01:17,009 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:01:18,134 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 15:01:18,160 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 15:01:18,295 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 15:01:18,340 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 15:01:18,628 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 15:01:18,657 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 15:01:18,737 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 15:01:18,779 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 15:01:21,403 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:01:21,507 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:01:23,257 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:01:23,384 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:01:26,000 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-12-09 15:01:26,043 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-12-09 15:01:26,078 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-12-09 15:01:26,121 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-12-09 15:01:29,249 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:01:29,361 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:01:31,859 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:01:31,971 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:01:34,092 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-12-09 15:01:34,202 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-12-09 15:01:34,271 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>

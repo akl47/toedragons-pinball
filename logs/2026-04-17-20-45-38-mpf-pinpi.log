@@ -1,0 +1,743 @@
+2026-04-17 20:45:38,285 : INFO : root : Loading config.
+2026-04-17 20:45:38,531 : INFO : ConfigProcessor : Config spec file cache created: /tmp/config_spec.mpf_cache
+2026-04-17 20:45:38,532 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-04-17 20:45:38,532 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2026-04-17 20:45:38,579 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2026-04-17 20:45:38,579 : INFO : ConfigProcessor : Loading config from file /home/pinpi/toedragons-pinball/config/config.yaml.
+2026-04-17 20:45:38,593 : INFO : ConfigProcessor : Loading config: /home/pinpi/toedragons-pinball/config/config.yaml
+2026-04-17 20:45:38,594 : INFO : ConfigProcessor : Config file cache created: /tmp/9121053a167b3a0609222a4623987891.mpf_cache
+2026-04-17 20:45:38,917 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/attract/config/attract.yaml.
+2026-04-17 20:45:38,919 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/attract/config/attract.yaml
+2026-04-17 20:45:38,919 : INFO : ConfigProcessor : Config file cache created: /tmp/66ef204c87633dc02ca3efd475778ed9.mpf_cache
+2026-04-17 20:45:38,919 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/game/config/game.yaml.
+2026-04-17 20:45:38,921 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/game/config/game.yaml
+2026-04-17 20:45:38,921 : INFO : ConfigProcessor : Config file cache created: /tmp/74f2825223a7abe8c76a0d15a1753cf2.mpf_cache
+2026-04-17 20:45:38,922 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2026-04-17 20:45:38,922 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-04-17-20-45-38-mpf-pinpi.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/home/pinpi/toedragons-pinball/logs/2026-04-17-20-45-38-mpf-pinpi.log'}
+2026-04-17 20:45:38,922 : INFO : Machine : MPF path: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf
+2026-04-17 20:45:38,922 : INFO : Machine : Machine path: /home/pinpi/toedragons-pinball
+2026-04-17 20:45:38,922 : INFO : Machine : Platform: linux
+2026-04-17 20:45:38,922 : INFO : Machine : Python executable location: /home/pinpi/pinpi/bin/python
+2026-04-17 20:45:38,922 : INFO : Machine : Python version: 3.11.2 (64-bit)
+2026-04-17 20:45:38,923 : INFO : Machine : Initializing MPF...
+2026-04-17 20:45:39,357 : INFO : FAST [NET] : Trying to connect to /dev/ttyAMA2 at 921600bps
+2026-04-17 20:45:39,358 : INFO : FAST [NET] : Connected to /dev/ttyAMA2 at 921600bps
+2026-04-17 20:45:39,360 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2026-04-17 20:45:39,361 : ERROR : FAST [NET] : No node board found at I/O position 0, board cab will not be available. Please check your cable connections.
+2026-04-17 20:45:39,362 : ERROR : FAST [NET] : No node board found at I/O position 1, board u3r will not be available. Please check your cable connections.
+2026-04-17 20:45:39,363 : ERROR : FAST [NET] : No node board found at I/O position 2, board l3 will not be available. Please check your cable connections.
+2026-04-17 20:45:39,364 : ERROR : FAST [NET] : No node board found at I/O position 3, board u3l will not be available. Please check your cable connections.
+2026-04-17 20:45:39,364 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-04-17 20:45:39,401 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-04-17 20:45:39,401 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2026-04-17 20:45:39,401 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-04-17 20:45:39,401 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.2', 'prev_value': None, 'change': True}
+2026-04-17 20:45:39,402 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-6.6.51+rpt-rpi-2712-aarch64-with-glibc2.36', 'prev_value': None, 'change': True}
+2026-04-17 20:45:39,402 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2026-04-17 20:45:39,402 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '6.6.51+rpt-rpi-2712', 'prev_value': None, 'change': True}
+2026-04-17 20:45:39,403 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08)', 'prev_value': None, 'change': True}
+2026-04-17 20:45:39,403 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'aarch64', 'prev_value': None, 'change': True}
+2026-04-17 20:45:39,403 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/home/pinpi/toedragons-pinball/logs/2026-04-17-20-45-38-mpf-pinpi.log', 'prev_value': None, 'change': True}
+2026-04-17 20:45:39,403 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-04-17 20:45:39,428 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-33' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left_flipper_eos in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 484, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'l3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 542, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 486, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board l3 does not exist for switch l3-08
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_flipper_eos in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2026-04-17 20:45:39,437 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_right_flipper_hold in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 340, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'l3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 389, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 342, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board l3 does not exist for driver l3-05
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_right_flipper_hold in platform. See error above
+2026-04-17 20:45:39,440 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_right_upper_flipper_main in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 340, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'u3r'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 389, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 342, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board u3r does not exist for driver u3r-02
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_right_upper_flipper_main in platform. See error above
+2026-04-17 20:45:39,440 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left_slingshot in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 484, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'l3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 542, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 486, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board l3 does not exist for switch l3-09
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_slingshot in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2026-04-17 20:45:39,441 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_right_upper_flipper_hold in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 340, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'u3r'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 389, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 342, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board u3r does not exist for driver u3r-01
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_right_upper_flipper_hold in platform. See error above
+2026-04-17 20:45:39,442 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_right_flipper_eos in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 484, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'l3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 542, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 486, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board l3 does not exist for switch l3-12
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_right_flipper_eos in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2026-04-17 20:45:39,442 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_right_slingshot in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 340, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'l3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 389, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 342, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board l3 does not exist for driver l3-07
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_right_slingshot in platform. See error above
+2026-04-17 20:45:39,443 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_right_slingshot in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 484, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'l3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 542, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 486, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board l3 does not exist for switch l3-13
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_right_slingshot in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2026-04-17 20:45:39,443 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_ball_trough in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 340, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'l3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 389, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 342, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board l3 does not exist for driver l3-03
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_ball_trough in platform. See error above
+2026-04-17 20:45:39,444 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-37' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_goal_right in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 484, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'u3r'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 542, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 486, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board u3r does not exist for switch u3r-00
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_goal_right in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2026-04-17 20:45:39,444 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-17' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_left_flipper_main in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 340, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'l3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 389, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 342, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board l3 does not exist for driver l3-01
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_left_flipper_main in platform. See error above
+2026-04-17 20:45:39,445 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_auto_plunger in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 340, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'u3l'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 389, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 342, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board u3l does not exist for driver u3l-02
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_auto_plunger in platform. See error above
+2026-04-17 20:45:39,445 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-38' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_goal_center in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 484, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'u3r'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 542, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 486, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board u3r does not exist for switch u3r-01
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_goal_center in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2026-04-17 20:45:39,446 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_left_flipper_hold in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 340, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'l3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 389, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 342, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board l3 does not exist for driver l3-00
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_left_flipper_hold in platform. See error above
+2026-04-17 20:45:39,447 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_goal in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 340, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'u3r'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 389, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 342, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board u3r does not exist for driver u3r-00
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_goal in platform. See error above
+2026-04-17 20:45:39,447 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-39' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_goal_left in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 484, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'u3r'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 542, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 486, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board u3r does not exist for switch u3r-02
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_goal_left in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2026-04-17 20:45:39,448 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_left_upper_flipper_main in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 340, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'u3l'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 389, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 342, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board u3l does not exist for driver u3l-01
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_left_upper_flipper_main in platform. See error above
+2026-04-17 20:45:39,448 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_left_flipper in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 484, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'l3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 542, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 486, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board l3 does not exist for switch l3-01
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_flipper in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2026-04-17 20:45:39,449 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_left_upper_flipper_hold in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 340, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'u3l'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 389, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 342, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board u3l does not exist for driver u3l-00
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_left_upper_flipper_hold in platform. See error above
+2026-04-17 20:45:39,449 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_start_button in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 484, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'l3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 542, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 486, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board l3 does not exist for switch l3-03
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_start_button in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2026-04-17 20:45:39,450 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_left_slingshot in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 340, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'l3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 389, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 342, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board l3 does not exist for driver l3-04
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_left_slingshot in platform. See error above
+2026-04-17 20:45:39,450 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=ConfigFileError('Failed to configure switch s_right_flipper in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 484, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'l3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 542, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 486, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board l3 does not exist for switch l3-05
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_right_flipper in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2026-04-17 20:45:39,451 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<SystemWideDevice.device_added_system_wide() done, defined at /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py:15> exception=AssertionError('Failed to configure driver c_right_flipper_main in platform. See error above')>
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 340, in _parse_driver_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'l3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 118, in _initialize
+    self.hw_driver = self.platform.configure_driver(config, self.config['number'], platform_settings)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 389, in configure_driver
+    index = self._parse_driver_number(number)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 342, in _parse_driver_number
+    raise AssertionError(f"I/O Board {board_str} does not exist for driver {number}")
+AssertionError: I/O Board l3 does not exist for driver l3-06
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/driver.py", line 120, in _initialize
+    raise AssertionError("Failed to configure driver {} in platform. See error above".format(self.name)) from e
+AssertionError: Failed to configure driver c_right_flipper_main in platform. See error above
+2026-04-17 20:45:39,452 : INFO : Machine : Starting the main run loop with active modes: []
+2026-04-17 20:45:39,452 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-04-17 20:45:39,452 : INFO : Machine : Shutting down...
+2026-04-17 20:45:39,452 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-04-17 20:45:40,555 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 484, in _parse_switch_number
+    board = self.io_boards_by_name[board_str]
+            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'l3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 149, in _initialize
+    self.hw_switch = self.platform.configure_switch(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 542, in configure_switch
+    number = self._parse_switch_number(number)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/platforms/fast/fast.py", line 486, in _parse_switch_number
+    raise AssertionError(f"Board {board_str} does not exist for switch {number}")
+AssertionError: Board l3 does not exist for switch l3-08
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/machine.py", line 808, in _run_loop
+    raise self._exception['exception']
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "/home/pinpi/pinpi/lib/python3.11/site-packages/mpf/devices/switch.py", line 152, in _initialize
+    raise ConfigFileError("Failed to configure switch {} in platform. See error above".format(self.name), 2,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in switch: Failed to configure switch s_left_flipper_eos in platform. See error above Error Code: CFE-switch-2 (https://missionpinball.org/logs)
+2026-04-17 20:45:40,558 : INFO : root : MPF run loop ended.

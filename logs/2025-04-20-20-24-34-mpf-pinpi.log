@@ -1,0 +1,63 @@
+2025-04-20 20:24:34,493 : INFO : root : Loading config.
+2025-04-20 20:24:34,734 : INFO : ConfigProcessor : Config spec file cache created: /tmp/config_spec.mpf_cache
+2025-04-20 20:24:34,735 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-04-20 20:24:34,735 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2025-04-20 20:24:34,779 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2025-04-20 20:24:34,780 : INFO : ConfigProcessor : Loading config from file /home/pinpi/toedragons-pinball/config/config.yaml.
+2025-04-20 20:24:34,788 : INFO : ConfigProcessor : Loading config: /home/pinpi/toedragons-pinball/config/config.yaml
+2025-04-20 20:24:34,789 : INFO : ConfigProcessor : Config file cache created: /tmp/9121053a167b3a0609222a4623987891.mpf_cache
+2025-04-20 20:24:34,874 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/attract/config/attract.yaml.
+2025-04-20 20:24:34,876 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/attract/config/attract.yaml
+2025-04-20 20:24:34,876 : INFO : ConfigProcessor : Config file cache created: /tmp/66ef204c87633dc02ca3efd475778ed9.mpf_cache
+2025-04-20 20:24:34,877 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/game/config/game.yaml.
+2025-04-20 20:24:34,878 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/game/config/game.yaml
+2025-04-20 20:24:34,878 : INFO : ConfigProcessor : Config file cache created: /tmp/74f2825223a7abe8c76a0d15a1753cf2.mpf_cache
+2025-04-20 20:24:34,879 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-04-20 20:24:34,879 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-04-20-20-24-34-mpf-pinpi.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/home/pinpi/toedragons-pinball/logs/2025-04-20-20-24-34-mpf-pinpi.log'}
+2025-04-20 20:24:34,879 : INFO : Machine : MPF path: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf
+2025-04-20 20:24:34,879 : INFO : Machine : Machine path: /home/pinpi/toedragons-pinball
+2025-04-20 20:24:34,879 : INFO : Machine : Platform: linux
+2025-04-20 20:24:34,879 : INFO : Machine : Python executable location: /home/pinpi/pinpi/bin/python
+2025-04-20 20:24:34,879 : INFO : Machine : Python version: 3.11.2 (64-bit)
+2025-04-20 20:24:34,880 : INFO : Machine : Initializing MPF...
+2025-04-20 20:24:35,008 : INFO : FAST [NET] : Trying to connect to /dev/ttyAMA2 at 921600bps
+2025-04-20 20:24:35,008 : INFO : FAST [NET] : Connected to /dev/ttyAMA2 at 921600bps
+2025-04-20 20:24:35,010 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2025-04-20 20:24:35,012 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-04-20 20:24:35,012 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,029 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,029 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,029 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,029 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.2', 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,030 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-6.6.51+rpt-rpi-2712-aarch64-with-glibc2.36', 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,030 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,030 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '6.6.51+rpt-rpi-2712', 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,030 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08)', 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,030 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'aarch64', 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,030 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/home/pinpi/toedragons-pinball/logs/2025-04-20-20-24-34-mpf-pinpi.log', 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,030 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-04-20 20:24:35,174 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-04-20 20:24:35,180 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-04-20 20:24:35,182 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-04-20 20:24:35,184 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,184 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,184 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,184 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,184 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,184 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,184 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,184 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,184 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-04-20 20:24:35,184 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-04-20 20:24:35,187 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-04-20 20:24:35,187 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-04-20 20:24:35,187 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-04-20 20:24:35,188 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-04-20 20:24:35,188 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-04-20 20:24:35,189 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-04-20 20:24:35,189 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-04-20 20:24:35,189 : INFO : Mode.attract : Started. Priority: 10
+2025-04-20 20:24:35,189 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-20 20:24:35,189 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-04-20 20:24:35,189 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-04-20 20:24:35,189 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]

@@ -1,0 +1,134 @@
+2025-05-08 20:07:33,214 : INFO : root : Loading config.
+2025-05-08 20:07:33,448 : INFO : ConfigProcessor : Config spec file cache created: /tmp/config_spec.mpf_cache
+2025-05-08 20:07:33,448 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-05-08 20:07:33,448 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2025-05-08 20:07:33,493 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2025-05-08 20:07:33,493 : INFO : ConfigProcessor : Loading config from file /home/pinpi/toedragons-pinball/config/config.yaml.
+2025-05-08 20:07:33,501 : INFO : ConfigProcessor : Loading config: /home/pinpi/toedragons-pinball/config/config.yaml
+2025-05-08 20:07:33,502 : INFO : ConfigProcessor : Config file cache created: /tmp/9121053a167b3a0609222a4623987891.mpf_cache
+2025-05-08 20:07:33,587 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/attract/config/attract.yaml.
+2025-05-08 20:07:33,589 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/attract/config/attract.yaml
+2025-05-08 20:07:33,589 : INFO : ConfigProcessor : Config file cache created: /tmp/66ef204c87633dc02ca3efd475778ed9.mpf_cache
+2025-05-08 20:07:33,590 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/game/config/game.yaml.
+2025-05-08 20:07:33,591 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/modes/game/config/game.yaml
+2025-05-08 20:07:33,591 : INFO : ConfigProcessor : Config file cache created: /tmp/74f2825223a7abe8c76a0d15a1753cf2.mpf_cache
+2025-05-08 20:07:33,591 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-05-08 20:07:33,591 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-05-08-20-07-33-mpf-pinpi.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/home/pinpi/toedragons-pinball/logs/2025-05-08-20-07-33-mpf-pinpi.log'}
+2025-05-08 20:07:33,591 : INFO : Machine : MPF path: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf
+2025-05-08 20:07:33,591 : INFO : Machine : Machine path: /home/pinpi/toedragons-pinball
+2025-05-08 20:07:33,591 : INFO : Machine : Platform: linux
+2025-05-08 20:07:33,591 : INFO : Machine : Python executable location: /home/pinpi/pinpi/bin/python
+2025-05-08 20:07:33,591 : INFO : Machine : Python version: 3.11.2 (64-bit)
+2025-05-08 20:07:33,592 : INFO : Machine : Initializing MPF...
+2025-05-08 20:07:33,721 : INFO : FAST [NET] : Trying to connect to /dev/ttyAMA2 at 921600bps
+2025-05-08 20:07:33,722 : INFO : FAST [NET] : Connected to /dev/ttyAMA2 at 921600bps
+2025-05-08 20:07:33,723 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2025-05-08 20:07:33,725 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-05-08 20:07:33,725 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,742 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,742 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,742 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,742 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.2', 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,743 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-6.6.51+rpt-rpi-2712-aarch64-with-glibc2.36', 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,743 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,743 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '6.6.51+rpt-rpi-2712', 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,743 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08)', 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,743 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'aarch64', 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,744 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/home/pinpi/toedragons-pinball/logs/2025-05-08-20-07-33-mpf-pinpi.log', 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,744 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-05-08 20:07:33,880 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-05-08 20:07:33,880 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-05-08 20:07:33,881 : INFO : SwitchController : Found active switch: (8, [FAST Platform Interface]) <switch.s_left_flipper_eos>
+2025-05-08 20:07:33,887 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-05-08 20:07:33,889 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-05-08 20:07:33,890 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,890 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,890 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,890 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,890 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,890 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,890 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start_button'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,890 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,890 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,891 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-05-08 20:07:33,891 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-05-08 20:07:33,891 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-05-08 20:07:33,891 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-05-08 20:07:33,891 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-05-08 20:07:33,892 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-05-08 20:07:33,895 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-05-08 20:07:33,895 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-05-08 20:07:33,896 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-05-08 20:07:33,896 : INFO : Mode.attract : Started. Priority: 10
+2025-05-08 20:07:33,896 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-05-08 20:07:33,896 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-05-08 20:07:33,896 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-05-08 20:07:33,896 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-05-08 20:07:35,160 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-05-08 20:07:35,181 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-05-08 20:07:35,264 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-05-08 20:07:35,304 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-05-08 20:07:36,975 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-05-08 20:07:36,997 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-05-08 20:07:37,000 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-05-08 20:07:37,027 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-05-08 20:07:38,245 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-05-08 20:07:38,298 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-05-08 20:07:43,462 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-05-08 20:07:43,579 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-05-08 20:07:49,354 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-05-08 20:07:49,354 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-05-08 20:07:49,355 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-05-08 20:07:49,440 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-05-08 20:07:50,417 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-05-08 20:07:50,417 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-05-08 20:07:50,417 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-05-08 20:07:50,485 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-05-08 20:07:52,198 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-05-08 20:07:52,199 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-05-08 20:07:52,199 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-05-08 20:07:52,333 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-05-08 20:07:54,461 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-05-08 20:07:54,461 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-05-08 20:07:54,461 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-05-08 20:07:54,621 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-05-08 20:08:08,757 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-05-08 20:08:08,792 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-05-08 20:08:08,863 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-05-08 20:08:08,903 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-05-08 20:08:12,032 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-05-08 20:08:12,068 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-05-08 20:08:12,136 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-05-08 20:08:12,177 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-05-08 20:08:15,556 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-05-08 20:08:15,595 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-05-08 20:08:15,647 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-05-08 20:08:15,687 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-05-08 20:08:19,713 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-05-08 20:08:19,748 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-05-08 20:08:19,778 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-05-08 20:08:19,818 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-05-08 20:08:21,620 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-05-08 20:08:21,646 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-05-08 20:08:21,710 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-05-08 20:08:21,750 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-05-08 20:08:58,448 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-05-08 20:08:58,448 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-05-08 20:08:58,448 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-05-08 20:08:58,545 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-05-08 20:08:59,978 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-05-08 20:08:59,979 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-05-08 20:08:59,979 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-05-08 20:09:00,112 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-05-08 20:09:01,100 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-05-08 20:09:01,100 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-05-08 20:09:01,100 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-05-08 20:09:01,231 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-05-08 20:09:04,733 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-05-08 20:09:04,733 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-05-08 20:09:04,733 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-05-08 20:09:04,868 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>
+2025-05-08 20:09:05,393 : INFO : SwitchController : <<<<<<< 's_start_button' active >>>>>>>
+2025-05-08 20:09:05,393 : INFO : EventManager : Event: ======'playfield_active'====== Args={'source': 'ac_ball_trough'}
+2025-05-08 20:09:05,393 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2025-05-08 20:09:05,502 : INFO : SwitchController : <<<<<<< 's_start_button' inactive >>>>>>>

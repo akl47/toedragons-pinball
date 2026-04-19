@@ -11,66 +11,91 @@ fast:
     controller: neuron
     port: /dev/ttyAMA2
     io_loop:
+      cab:
+        model: FP-I/O-0024
+        order: 1
+      u3r:
+        model: FP-I/O-0804
+        order: 2
       l3:
         model: FP-I/O-3208
-        order: 1
+        order: 3
+      u3l:
+        model: FP-I/O-0804
+        order: 4
 
 playfields:
   playfield:
     tags: default
     default_source_device: None  # use None in steps before 8
 
-# switches:
-#   s_left_flipper_short:
-#     number: b1-0
-#     tags: left_flipper_short
-#   s_left_flipper_long:
-#     number: b1-1
-#     tags: left_flipper_long
-#   s_right_flipper_short:
-#     number: b1-4
-#     tags: right_flipper_short
-#   s_right_flipper_long:
-#     number: b1-5
-#     tags: right_flipper_long
-
-# coils:
-#   c_flipper_left_main:
-#     number: b1-0  # again, these numbers will probably be different for you
-#   c_flipper_left_hold:
-#     number: b1-1  # check your platform-specific documentation for the actual numbers
-#     allow_enable: true
-#   c_flipper_right_main:
-#     number: 02
-#   c_flipper_right_hold:
-#     number: 03
-#     allow_enable: true
-
-# flippers:
-#     left_flipper:
-#         main_coil: c_left_flipper_main
-#         hold_coil: c_left_flipper_hold
-#         activation_switch: s_left_flipper
-#         eos_switch: s_left_flipper_eos
-#         use_eos: true
-#     right_flipper:
-#         main_coil: c_right_flipper_main
-#         hold_coil: c_right_flipper_hold
-#         activation_switch: s_right_flipper
-#         eos_switch: s_right_flipper_eos
-#         use_eos: true
 switches:
     s_left_flipper:
-        number: l3-0
-
+        number: l3-01
+    s_start_button:
+        number: l3-03
+    s_right_flipper:
+        number: l3-05
+    s_left_flipper_eos:
+        number: l3-08
+    s_left_slingshot:
+        number: l3-09
+    s_right_flipper_eos:
+        number: l3-12
+    s_right_slingshot:
+        number: l3-13
+    s_goal_right:
+        number: u3r-00
+    s_goal_center:
+        number: u3r-01
+    s_goal_left:
+        number: u3r-02  
 
 coils:
     c_left_flipper_main:
         number: l3-01
-        default_pulse_ms: 10
+        default_pulse_ms: 1
     c_left_flipper_hold:
         number: l3-00
         allow_enable: true
+    c_left_upper_flipper_main:
+        number: u3l-01
+        default_pulse_ms: 1
+    c_left_upper_flipper_hold:
+        number: u3l-00
+        allow_enable: true
+    c_left_slingshot:
+        number: l3-04
+        allow_enable: true
+        default_pulse_ms: 10
+    c_right_flipper_main:
+        number: l3-06
+        default_pulse_ms: 1
+    c_right_flipper_hold:
+        number: l3-05
+        allow_enable: true
+    c_right_upper_flipper_main:
+        number: u3r-02
+        default_pulse_ms: 1
+    c_right_upper_flipper_hold:
+        number: u3r-01
+        allow_enable: true
+    c_right_slingshot:
+        number: l3-07
+        default_pulse_ms: 10
+        allow_enable: true
+    c_ball_trough:
+        number: l3-03
+        allow_enable: true
+        default_pulse_ms: 50
+    c_auto_plunger:
+        number: u3l-02
+        allow_enable: true
+        default_pulse_ms: 50
+    c_goal:
+        number: u3r-00
+        allow_enable: true
+        default_pulse_ms: 50
 
 flippers:
     left_flipper:
@@ -78,11 +103,40 @@ flippers:
         hold_coil: c_left_flipper_hold
         activation_switch: s_left_flipper
         enable_events: machine_reset_phase_3
-        # eos_switch: s_left_flipper_eos
-        # use_eos: true
-    
-keyboard:
-    z:
-        switch: s_left_flipper
-    m:
-        switch: s_right_flipper_long
+    left_upper_flipper:
+        main_coil: c_left_upper_flipper_main
+        hold_coil: c_left_upper_flipper_hold
+        activation_switch: s_right_flipper
+        enable_events: machine_reset_phase_3
+    right_flipper:
+        main_coil: c_right_flipper_main
+        hold_coil: c_right_flipper_hold
+        activation_switch: s_right_flipper
+        enable_events: machine_reset_phase_3
+    right_upper_flipper:
+        main_coil: c_right_upper_flipper_main
+        hold_coil: c_right_upper_flipper_hold
+        activation_switch: s_left_flipper
+        enable_events: machine_reset_phase_3
+
+autofire_coils:
+    ac_ball_trough:
+        coil: c_ball_trough
+        switch: s_start_button
+        enable_events: machine_reset_phase_3
+    ac_goal:
+        coil: c_goal
+        switch: s_start_button
+        enable_events: machine_reset_phase_3
+    ac_auto_plunger:
+        coil: c_auto_plunger
+        switch: s_start_button
+        enable_events: machine_reset_phase_3
+    ac_left_slingshot:
+        coil: c_left_slingshot
+        switch: s_left_slingshot
+        enable_events: machine_reset_phase_3
+    ac_right_slingshot:
+        coil: c_right_slingshot
+        switch: s_right_slingshot
+        enable_events: machine_reset_phase_3

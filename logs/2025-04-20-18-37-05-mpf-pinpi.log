@@ -1,0 +1,295 @@
+2025-04-20 18:37:05,606 : INFO : root : Loading config.
+2025-04-20 18:37:05,608 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-04-20 18:37:05,608 : WARNING : ConfigProcessor : Config file in cache changed: /home/pinpi/toedragons-pinball/config/config.yaml
+2025-04-20 18:37:05,608 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2025-04-20 18:37:05,654 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2025-04-20 18:37:05,655 : INFO : ConfigProcessor : Loading config from file /home/pinpi/toedragons-pinball/config/config.yaml.
+2025-04-20 18:37:05,661 : INFO : ConfigProcessor : Loading config: /home/pinpi/toedragons-pinball/config/config.yaml
+2025-04-20 18:37:05,662 : INFO : ConfigProcessor : Config file cache created: /tmp/9121053a167b3a0609222a4623987891.mpf_cache
+2025-04-20 18:37:05,694 : INFO : ConfigProcessor : Loading config from cache: /tmp/66ef204c87633dc02ca3efd475778ed9.mpf_cache
+2025-04-20 18:37:05,694 : INFO : ConfigProcessor : Loading config from cache: /tmp/74f2825223a7abe8c76a0d15a1753cf2.mpf_cache
+2025-04-20 18:37:05,694 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-04-20 18:37:05,694 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-04-20-18-37-05-mpf-pinpi.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/home/pinpi/toedragons-pinball/logs/2025-04-20-18-37-05-mpf-pinpi.log'}
+2025-04-20 18:37:05,695 : INFO : Machine : MPF path: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf
+2025-04-20 18:37:05,695 : INFO : Machine : Machine path: /home/pinpi/toedragons-pinball
+2025-04-20 18:37:05,695 : INFO : Machine : Platform: linux
+2025-04-20 18:37:05,695 : INFO : Machine : Python executable location: /home/pinpi/pinpi/bin/python
+2025-04-20 18:37:05,695 : INFO : Machine : Python version: 3.11.2 (64-bit)
+2025-04-20 18:37:05,695 : INFO : Machine : Initializing MPF...
+2025-04-20 18:37:05,739 : INFO : FAST [NET] : Trying to connect to /dev/ttyAMA2 at 921600bps
+2025-04-20 18:37:05,740 : INFO : FAST [NET] : Connected to /dev/ttyAMA2 at 921600bps
+2025-04-20 18:37:05,741 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2025-04-20 18:37:05,743 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-04-20 18:37:05,743 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,750 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,750 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,750 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,750 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.2', 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,751 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-6.6.51+rpt-rpi-2712-aarch64-with-glibc2.36', 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,751 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,751 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '6.6.51+rpt-rpi-2712', 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,752 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08)', 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,752 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'aarch64', 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,752 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/home/pinpi/toedragons-pinball/logs/2025-04-20-18-37-05-mpf-pinpi.log', 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,752 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-04-20 18:37:05,828 : INFO : SwitchController : <<<<<<< 's_08' active >>>>>>>
+2025-04-20 18:37:05,828 : INFO : SwitchController : <<<<<<< 's_12' active >>>>>>>
+2025-04-20 18:37:05,828 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-04-20 18:37:05,828 : INFO : SwitchController : Found active switch: (8, [FAST Platform Interface]) <switch.s_08>
+2025-04-20 18:37:05,828 : INFO : SwitchController : Found active switch: (12, [FAST Platform Interface]) <switch.s_12>
+2025-04-20 18:37:05,831 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-04-20 18:37:05,832 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-04-20 18:37:05,833 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_15'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,833 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_13'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,833 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_08'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,833 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_02'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,833 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_07'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,833 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_03'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,833 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_10'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,833 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_12'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_14'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_01'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_05'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_09'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_04'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_11'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,834 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_06'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,834 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,834 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,834 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-04-20 18:37:05,834 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-04-20 18:37:05,835 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-04-20 18:37:05,835 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-04-20 18:37:05,835 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-04-20 18:37:05,835 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-04-20 18:37:05,835 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-04-20 18:37:05,835 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-04-20 18:37:05,835 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-04-20 18:37:05,835 : INFO : Mode.attract : Started. Priority: 10
+2025-04-20 18:37:05,835 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-20 18:37:05,836 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-04-20 18:37:05,836 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-04-20 18:37:05,836 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-04-20 18:37:06,969 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:37:07,262 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:37:07,676 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:37:07,879 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:37:08,263 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:37:08,356 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:37:08,511 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:37:08,615 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:37:08,722 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:37:08,978 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:37:09,213 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:37:09,356 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:37:09,511 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:37:09,614 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:37:09,745 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:37:09,836 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:37:10,254 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:37:10,428 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:37:14,786 : INFO : SwitchController : <<<<<<< 's_13' active >>>>>>>
+2025-04-20 18:37:15,021 : INFO : SwitchController : <<<<<<< 's_13' inactive >>>>>>>
+2025-04-20 18:37:15,432 : INFO : SwitchController : <<<<<<< 's_13' active >>>>>>>
+2025-04-20 18:37:15,634 : INFO : SwitchController : <<<<<<< 's_13' inactive >>>>>>>
+2025-04-20 18:37:16,412 : INFO : SwitchController : <<<<<<< 's_13' active >>>>>>>
+2025-04-20 18:37:16,450 : INFO : SwitchController : <<<<<<< 's_13' inactive >>>>>>>
+2025-04-20 18:37:16,711 : INFO : SwitchController : <<<<<<< 's_13' active >>>>>>>
+2025-04-20 18:37:16,857 : INFO : SwitchController : <<<<<<< 's_13' inactive >>>>>>>
+2025-04-20 18:37:17,081 : INFO : SwitchController : <<<<<<< 's_09' active >>>>>>>
+2025-04-20 18:37:17,463 : INFO : SwitchController : <<<<<<< 's_09' inactive >>>>>>>
+2025-04-20 18:37:17,595 : INFO : SwitchController : <<<<<<< 's_09' active >>>>>>>
+2025-04-20 18:37:17,760 : INFO : SwitchController : <<<<<<< 's_09' inactive >>>>>>>
+2025-04-20 18:37:19,163 : INFO : SwitchController : <<<<<<< 's_13' active >>>>>>>
+2025-04-20 18:37:19,463 : INFO : SwitchController : <<<<<<< 's_13' inactive >>>>>>>
+2025-04-20 18:37:19,703 : INFO : SwitchController : <<<<<<< 's_09' active >>>>>>>
+2025-04-20 18:37:19,892 : INFO : SwitchController : <<<<<<< 's_09' inactive >>>>>>>
+2025-04-20 18:37:20,173 : INFO : SwitchController : <<<<<<< 's_09' active >>>>>>>
+2025-04-20 18:37:20,271 : INFO : SwitchController : <<<<<<< 's_09' inactive >>>>>>>
+2025-04-20 18:37:22,416 : INFO : SwitchController : <<<<<<< 's_12' inactive >>>>>>>
+2025-04-20 18:37:22,482 : INFO : SwitchController : <<<<<<< 's_08' inactive >>>>>>>
+2025-04-20 18:37:23,459 : INFO : SwitchController : <<<<<<< 's_12' active >>>>>>>
+2025-04-20 18:37:23,616 : INFO : SwitchController : <<<<<<< 's_08' active >>>>>>>
+2025-04-20 18:37:25,433 : INFO : SwitchController : <<<<<<< 's_12' inactive >>>>>>>
+2025-04-20 18:37:25,802 : INFO : SwitchController : <<<<<<< 's_12' active >>>>>>>
+2025-04-20 18:37:26,210 : INFO : SwitchController : <<<<<<< 's_08' inactive >>>>>>>
+2025-04-20 18:37:26,423 : INFO : SwitchController : <<<<<<< 's_08' active >>>>>>>
+2025-04-20 18:37:27,007 : INFO : SwitchController : <<<<<<< 's_12' inactive >>>>>>>
+2025-04-20 18:37:27,254 : INFO : SwitchController : <<<<<<< 's_12' active >>>>>>>
+2025-04-20 18:37:27,966 : INFO : SwitchController : <<<<<<< 's_12' inactive >>>>>>>
+2025-04-20 18:37:28,016 : INFO : SwitchController : <<<<<<< 's_08' inactive >>>>>>>
+2025-04-20 18:37:28,266 : INFO : SwitchController : <<<<<<< 's_12' active >>>>>>>
+2025-04-20 18:37:28,507 : INFO : SwitchController : <<<<<<< 's_08' active >>>>>>>
+2025-04-20 18:37:29,890 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:37:30,247 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:37:30,345 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:37:30,552 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:37:31,542 : INFO : SwitchController : <<<<<<< 's_13' active >>>>>>>
+2025-04-20 18:37:31,681 : INFO : SwitchController : <<<<<<< 's_13' inactive >>>>>>>
+2025-04-20 18:37:31,832 : INFO : SwitchController : <<<<<<< 's_13' active >>>>>>>
+2025-04-20 18:37:31,952 : INFO : SwitchController : <<<<<<< 's_13' inactive >>>>>>>
+2025-04-20 18:37:32,100 : INFO : SwitchController : <<<<<<< 's_09' active >>>>>>>
+2025-04-20 18:37:32,272 : INFO : SwitchController : <<<<<<< 's_09' inactive >>>>>>>
+2025-04-20 18:37:32,401 : INFO : SwitchController : <<<<<<< 's_09' active >>>>>>>
+2025-04-20 18:37:32,508 : INFO : SwitchController : <<<<<<< 's_09' inactive >>>>>>>
+2025-04-20 18:37:43,623 : INFO : SwitchController : <<<<<<< 's_13' active >>>>>>>
+2025-04-20 18:37:44,070 : INFO : SwitchController : <<<<<<< 's_13' inactive >>>>>>>
+2025-04-20 18:37:44,401 : INFO : SwitchController : <<<<<<< 's_13' active >>>>>>>
+2025-04-20 18:37:44,843 : INFO : SwitchController : <<<<<<< 's_13' inactive >>>>>>>
+2025-04-20 18:37:45,090 : INFO : SwitchController : <<<<<<< 's_13' active >>>>>>>
+2025-04-20 18:37:45,298 : INFO : SwitchController : <<<<<<< 's_13' inactive >>>>>>>
+2025-04-20 18:37:45,370 : INFO : SwitchController : <<<<<<< 's_13' active >>>>>>>
+2025-04-20 18:37:45,566 : INFO : SwitchController : <<<<<<< 's_13' inactive >>>>>>>
+2025-04-20 18:37:46,011 : INFO : SwitchController : <<<<<<< 's_13' active >>>>>>>
+2025-04-20 18:37:46,223 : INFO : SwitchController : <<<<<<< 's_13' inactive >>>>>>>
+2025-04-20 18:37:46,514 : INFO : SwitchController : <<<<<<< 's_13' active >>>>>>>
+2025-04-20 18:37:46,743 : INFO : SwitchController : <<<<<<< 's_13' inactive >>>>>>>
+2025-04-20 18:37:59,190 : INFO : SwitchController : <<<<<<< 's_09' active >>>>>>>
+2025-04-20 18:37:59,484 : INFO : SwitchController : <<<<<<< 's_09' inactive >>>>>>>
+2025-04-20 18:37:59,744 : INFO : SwitchController : <<<<<<< 's_09' active >>>>>>>
+2025-04-20 18:37:59,947 : INFO : SwitchController : <<<<<<< 's_09' inactive >>>>>>>
+2025-04-20 18:38:00,546 : INFO : SwitchController : <<<<<<< 's_09' active >>>>>>>
+2025-04-20 18:38:00,629 : INFO : SwitchController : <<<<<<< 's_09' inactive >>>>>>>
+2025-04-20 18:38:00,907 : INFO : SwitchController : <<<<<<< 's_09' active >>>>>>>
+2025-04-20 18:38:00,948 : INFO : SwitchController : <<<<<<< 's_09' inactive >>>>>>>
+2025-04-20 18:38:01,415 : INFO : SwitchController : <<<<<<< 's_09' active >>>>>>>
+2025-04-20 18:38:01,528 : INFO : SwitchController : <<<<<<< 's_09' inactive >>>>>>>
+2025-04-20 18:38:01,681 : INFO : SwitchController : <<<<<<< 's_09' active >>>>>>>
+2025-04-20 18:38:01,829 : INFO : SwitchController : <<<<<<< 's_09' inactive >>>>>>>
+2025-04-20 18:38:01,985 : INFO : SwitchController : <<<<<<< 's_09' active >>>>>>>
+2025-04-20 18:38:02,118 : INFO : SwitchController : <<<<<<< 's_09' inactive >>>>>>>
+2025-04-20 18:38:02,489 : INFO : SwitchController : <<<<<<< 's_09' active >>>>>>>
+2025-04-20 18:38:02,580 : INFO : SwitchController : <<<<<<< 's_09' inactive >>>>>>>
+2025-04-20 18:38:09,683 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:09,784 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:09,948 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:09,983 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:10,311 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:10,338 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:10,692 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:10,751 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:10,846 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:11,018 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:11,063 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:11,206 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:11,242 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:11,301 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:11,390 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:11,476 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:12,580 : INFO : SwitchController : <<<<<<< 's_08' inactive >>>>>>>
+2025-04-20 18:38:12,661 : INFO : SwitchController : <<<<<<< 's_12' inactive >>>>>>>
+2025-04-20 18:38:13,044 : INFO : SwitchController : <<<<<<< 's_12' active >>>>>>>
+2025-04-20 18:38:13,958 : INFO : SwitchController : <<<<<<< 's_08' active >>>>>>>
+2025-04-20 18:38:14,520 : INFO : SwitchController : <<<<<<< 's_08' inactive >>>>>>>
+2025-04-20 18:38:14,643 : INFO : SwitchController : <<<<<<< 's_08' active >>>>>>>
+2025-04-20 18:38:14,880 : INFO : SwitchController : <<<<<<< 's_08' inactive >>>>>>>
+2025-04-20 18:38:14,978 : INFO : SwitchController : <<<<<<< 's_08' active >>>>>>>
+2025-04-20 18:38:15,245 : INFO : SwitchController : <<<<<<< 's_08' inactive >>>>>>>
+2025-04-20 18:38:15,330 : INFO : SwitchController : <<<<<<< 's_08' active >>>>>>>
+2025-04-20 18:38:20,239 : INFO : SwitchController : <<<<<<< 's_08' inactive >>>>>>>
+2025-04-20 18:38:20,557 : INFO : SwitchController : <<<<<<< 's_08' active >>>>>>>
+2025-04-20 18:38:27,453 : INFO : SwitchController : <<<<<<< 's_12' inactive >>>>>>>
+2025-04-20 18:38:27,771 : INFO : SwitchController : <<<<<<< 's_12' active >>>>>>>
+2025-04-20 18:38:28,384 : INFO : SwitchController : <<<<<<< 's_12' inactive >>>>>>>
+2025-04-20 18:38:28,563 : INFO : SwitchController : <<<<<<< 's_12' active >>>>>>>
+2025-04-20 18:38:36,532 : INFO : SwitchController : <<<<<<< 's_08' inactive >>>>>>>
+2025-04-20 18:38:36,749 : INFO : SwitchController : <<<<<<< 's_08' active >>>>>>>
+2025-04-20 18:38:36,890 : INFO : SwitchController : <<<<<<< 's_12' inactive >>>>>>>
+2025-04-20 18:38:37,088 : INFO : SwitchController : <<<<<<< 's_12' active >>>>>>>
+2025-04-20 18:38:37,160 : INFO : SwitchController : <<<<<<< 's_08' inactive >>>>>>>
+2025-04-20 18:38:37,324 : INFO : SwitchController : <<<<<<< 's_08' active >>>>>>>
+2025-04-20 18:38:37,904 : INFO : SwitchController : <<<<<<< 's_08' inactive >>>>>>>
+2025-04-20 18:38:37,940 : INFO : SwitchController : <<<<<<< 's_12' inactive >>>>>>>
+2025-04-20 18:38:38,112 : INFO : SwitchController : <<<<<<< 's_08' active >>>>>>>
+2025-04-20 18:38:38,126 : INFO : SwitchController : <<<<<<< 's_12' active >>>>>>>
+2025-04-20 18:38:39,449 : INFO : SwitchController : <<<<<<< 's_12' inactive >>>>>>>
+2025-04-20 18:38:39,454 : INFO : SwitchController : <<<<<<< 's_12' active >>>>>>>
+2025-04-20 18:38:39,467 : INFO : SwitchController : <<<<<<< 's_12' inactive >>>>>>>
+2025-04-20 18:38:39,932 : INFO : SwitchController : <<<<<<< 's_12' active >>>>>>>
+2025-04-20 18:38:39,936 : INFO : SwitchController : <<<<<<< 's_12' inactive >>>>>>>
+2025-04-20 18:38:39,947 : INFO : SwitchController : <<<<<<< 's_12' active >>>>>>>
+2025-04-20 18:38:40,058 : INFO : SwitchController : <<<<<<< 's_12' inactive >>>>>>>
+2025-04-20 18:38:40,548 : INFO : SwitchController : <<<<<<< 's_08' inactive >>>>>>>
+2025-04-20 18:38:40,734 : INFO : SwitchController : <<<<<<< 's_08' active >>>>>>>
+2025-04-20 18:38:43,560 : INFO : SwitchController : <<<<<<< 's_12' active >>>>>>>
+2025-04-20 18:38:46,404 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:46,480 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:46,855 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:46,911 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:47,031 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:47,093 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:47,201 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:47,368 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:47,388 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:47,695 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:47,727 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:48,041 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:48,065 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:48,079 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:48,093 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:48,127 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:48,230 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:48,383 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:48,388 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:48,684 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:48,703 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:48,988 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:49,024 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:49,089 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:49,166 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:49,252 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:49,303 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:49,413 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:49,593 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:49,727 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:49,813 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:49,891 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:49,939 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:49,996 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:50,053 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:50,168 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:50,258 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:50,357 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:50,464 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:50,528 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:50,579 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:50,626 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:50,661 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:50,743 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:50,757 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:50,853 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:51,093 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:51,173 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:51,396 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:51,557 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:51,673 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:51,682 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:51,764 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:51,811 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:51,844 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:51,901 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:51,930 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:52,045 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:52,100 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:52,179 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:52,390 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:52,448 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:52,644 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:52,652 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:52,783 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:52,835 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:52,844 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:52,876 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:53,026 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:53,071 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:53,196 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:53,216 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:53,298 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 18:38:53,397 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:53,572 : INFO : SwitchController : <<<<<<< 's_01' active >>>>>>>
+2025-04-20 18:38:53,608 : INFO : SwitchController : <<<<<<< 's_05' active >>>>>>>
+2025-04-20 18:38:53,666 : INFO : SwitchController : <<<<<<< 's_05' inactive >>>>>>>
+2025-04-20 18:38:53,704 : INFO : SwitchController : <<<<<<< 's_01' inactive >>>>>>>
+2025-04-20 19:54:32,663 : INFO : Machine : Shutting down...
+2025-04-20 19:54:32,663 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-04-20 19:54:32,765 : INFO : root : MPF run loop ended.

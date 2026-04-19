@@ -1,0 +1,6 @@
+2026-03-25 15:55:39,485 : INFO : root : Loading config.
+2026-03-25 15:55:39,487 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-03-25 15:55:39,487 : WARNING : ConfigProcessor : Config file in cache changed: /home/pinpi/toedragons-pinball/config/config.yaml
+2026-03-25 15:55:39,487 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2026-03-25 15:55:39,534 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2026-03-25 15:55:39,534 : INFO : ConfigProcessor : Loading config from file /home/pinpi/toedragons-pinball/config/config.yaml.

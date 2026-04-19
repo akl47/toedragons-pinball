@@ -1,0 +1,112 @@
+2025-04-20 20:03:32,440 : INFO : root : Loading config.
+2025-04-20 20:03:32,442 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2025-04-20 20:03:32,442 : WARNING : ConfigProcessor : Config file in cache changed: /home/pinpi/toedragons-pinball/config/config.yaml
+2025-04-20 20:03:32,442 : INFO : ConfigProcessor : Loading config from file /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml.
+2025-04-20 20:03:32,489 : INFO : ConfigProcessor : Loading config: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf/mpfconfig.yaml
+2025-04-20 20:03:32,489 : INFO : ConfigProcessor : Loading config from file /home/pinpi/toedragons-pinball/config/config.yaml.
+2025-04-20 20:03:32,497 : INFO : ConfigProcessor : Loading config: /home/pinpi/toedragons-pinball/config/config.yaml
+2025-04-20 20:03:32,498 : INFO : ConfigProcessor : Config file cache created: /tmp/9121053a167b3a0609222a4623987891.mpf_cache
+2025-04-20 20:03:32,529 : INFO : ConfigProcessor : Loading config from cache: /tmp/66ef204c87633dc02ca3efd475778ed9.mpf_cache
+2025-04-20 20:03:32,530 : INFO : ConfigProcessor : Loading config from cache: /tmp/74f2825223a7abe8c76a0d15a1753cf2.mpf_cache
+2025-04-20 20:03:32,530 : INFO : Machine : Mission Pinball Framework Core Engine v0.80.0.dev7
+2025-04-20 20:03:32,530 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2025-04-20-20-03-32-mpf-pinpi.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'full_logfile_path': '/home/pinpi/toedragons-pinball/logs/2025-04-20-20-03-32-mpf-pinpi.log'}
+2025-04-20 20:03:32,530 : INFO : Machine : MPF path: /home/pinpi/pinpi/lib/python3.11/site-packages/mpf
+2025-04-20 20:03:32,530 : INFO : Machine : Machine path: /home/pinpi/toedragons-pinball
+2025-04-20 20:03:32,530 : INFO : Machine : Platform: linux
+2025-04-20 20:03:32,530 : INFO : Machine : Python executable location: /home/pinpi/pinpi/bin/python
+2025-04-20 20:03:32,530 : INFO : Machine : Python version: 3.11.2 (64-bit)
+2025-04-20 20:03:32,531 : INFO : Machine : Initializing MPF...
+2025-04-20 20:03:32,575 : INFO : FAST [NET] : Trying to connect to /dev/ttyAMA2 at 921600bps
+2025-04-20 20:03:32,576 : INFO : FAST [NET] : Connected to /dev/ttyAMA2 at 921600bps
+2025-04-20 20:03:32,577 : INFO : FAST [NET] : Connected to FP-CPU-2000 with firmware v02.26
+2025-04-20 20:03:32,578 : INFO : FAST [NET] : Registered I/O Board 0: Model: FP-I/O-3208, Firmware: 01.10, Switches: 32, Drivers: 8
+2025-04-20 20:03:32,579 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,586 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,586 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7', 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,586 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.80.0.dev7, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,586 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.2', 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,587 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-6.6.51+rpt-rpi-2712-aarch64-with-glibc2.36', 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,587 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,587 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '6.6.51+rpt-rpi-2712', 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,587 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#1 SMP PREEMPT Debian 1:6.6.51-1+rpt3 (2024-10-08)', 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,587 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'aarch64', 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,588 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '/home/pinpi/toedragons-pinball/logs/2025-04-20-20-03-32-mpf-pinpi.log', 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,588 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2025-04-20 20:03:32,666 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' active >>>>>>>
+2025-04-20 20:03:32,666 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2025-04-20 20:03:32,666 : INFO : SwitchController : Found active switch: (12, [FAST Platform Interface]) <switch.s_right_flipper_eos>
+2025-04-20 20:03:32,669 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2025-04-20 20:03:32,670 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2025-04-20 20:03:32,671 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,671 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,672 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,672 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_slingshot'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,672 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper_eos'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,672 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,672 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,672 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,672 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2025-04-20 20:03:32,672 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2025-04-20 20:03:32,672 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2025-04-20 20:03:32,672 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2025-04-20 20:03:32,672 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2025-04-20 20:03:32,673 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2025-04-20 20:03:32,673 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2025-04-20 20:03:32,673 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2025-04-20 20:03:32,674 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2025-04-20 20:03:32,674 : INFO : Mode.attract : Started. Priority: 10
+2025-04-20 20:03:32,674 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2025-04-20 20:03:32,674 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2025-04-20 20:03:32,674 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2025-04-20 20:03:32,674 : INFO : Machine : Starting the main run loop with active modes: [<Mode.attract>]
+2025-04-20 20:03:34,439 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:34,505 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:35,064 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:35,151 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:35,643 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:35,747 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:36,299 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:36,386 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:36,530 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:36,656 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:36,992 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:37,143 : INFO : SwitchController : <<<<<<< 's_right_flipper_eos' inactive >>>>>>>
+2025-04-20 20:03:37,235 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:37,684 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:37,822 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:38,232 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:38,317 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:38,984 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:39,073 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:39,498 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:39,559 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:39,687 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:39,727 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-04-20 20:03:39,745 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:40,841 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:40,935 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:42,190 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-04-20 20:03:42,198 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-04-20 20:03:42,225 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-04-20 20:03:42,256 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-04-20 20:03:42,468 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-04-20 20:03:42,493 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-04-20 20:03:42,544 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-04-20 20:03:42,765 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-04-20 20:03:42,862 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-04-20 20:03:43,073 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:43,149 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:43,270 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:43,353 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:43,461 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:43,503 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-04-20 20:03:43,565 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:43,759 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2025-04-20 20:03:43,784 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' inactive >>>>>>>
+2025-04-20 20:03:43,847 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2025-04-20 20:03:44,075 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2025-04-20 20:03:44,177 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2025-04-20 20:03:50,924 : INFO : Machine : Shutting down...
+2025-04-20 20:03:50,924 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2025-04-20 20:03:50,933 : INFO : SwitchController : <<<<<<< 's_left_flipper_eos' active >>>>>>>
+2025-04-20 20:03:51,027 : INFO : root : MPF run loop ended.
